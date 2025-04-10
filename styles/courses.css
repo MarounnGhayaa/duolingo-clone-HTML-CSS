@@ -53,6 +53,7 @@
     margin-top: 40px;
     max-width: 100px;
   }
+
   .lang {
     text-align: center;
     width: 350px;
@@ -61,4 +62,23 @@
     border-radius: 30px;
     border-color: lightgray;
     margin-bottom: 20px;
+  }
+
+  .lang h5 {
+    color: gray;
+  }
+
+  .next-button {
+    display: flex;
+    justify-content: center;
+  }
+  .next-button a {
+    text-align: center;
+    text-decoration: none;
+    background-color: lightgreen;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    padding: 20px;
+    margin-top: 20px;
   }
