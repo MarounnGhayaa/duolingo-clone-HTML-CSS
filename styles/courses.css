@@ -8,52 +8,86 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
 
-  .navbar {
+  .layout-container {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom-style: solid;
-    border-bottom-color: lightgray;
+    min-height: 100vh;
+  }
+  
+  .side-navbar {
+    text-align: center;
+    width: 220px;
+    background-color: white;
+    border-style: solid;
+    border-color: lightgray;
     padding: 20px;
   }
-
-  .navbar h1{
+  
+  .side-navbar h1 {
     color: lightgreen;
+    margin-bottom: 30px;
+  }
+
+  .side-navbar h1:hover {
+    cursor: pointer;
   }
 
   .icon-image {
     max-width: 30px;
   }
-
+  
+  .nav-links {
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    padding: 20px;
+  }
+  
+  .nav-links:hover {
+    background-color: lightgray;
+  }
+  
+  .page-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .navbar h1 {
+    color: lightgreen;
+  }
+  
   .site-lang label,
-  .site-lang select{
+  .site-lang select {
     color: gray;
     border-style: none;
   }
-
+  
   .site-lang:hover label,
   .site-lang:hover select {
     color: lightgray;
   }
 
   .main-screen {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 20px;
   }
-
+  
   .overflow {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-
-  .language-image{
+  
+  .language-image {
     margin-top: 40px;
     max-width: 100px;
   }
-
+  
   .lang {
     text-align: center;
     width: 350px;
@@ -63,16 +97,18 @@
     border-color: lightgray;
     margin-bottom: 20px;
   }
-
+  
   .lang h5 {
     color: gray;
   }
 
-  .next-button {
+  footer {
+    padding: 20px;
     display: flex;
     justify-content: center;
   }
-  .next-button a {
+  
+  footer a {
     text-align: center;
     text-decoration: none;
     background-color: lightgreen;
@@ -80,5 +116,4 @@
     border-radius: 10px;
     border-style: none;
     padding: 20px;
-    margin-top: 20px;
   }
