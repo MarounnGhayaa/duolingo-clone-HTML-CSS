@@ -30,3 +30,29 @@
   .site-lang:hover select {
     color: lightgray;
   }
+
+  .index-button {
+    text-align: center;
+    text-decoration: none;
+    background-color: lightgreen;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .main-screen {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .get-started {
+    flex-direction: column;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+  }
