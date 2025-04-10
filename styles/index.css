@@ -61,3 +61,14 @@
     align-items: center;
     padding: 20px;
   }
+
+  .overflow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: scroll;
+  }
+  
+  .overflow::-webkit-scrollbar {
+    display: none;
+  }
