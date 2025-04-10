@@ -95,12 +95,16 @@
     border-radius: 30px;
     border-color: lightgray;
     margin-bottom: 20px;
+    box-shadow: 0 4px 8px lightgray;
   }
   
   .lang h5 {
     color: gray;
   }
 
+  .lang:hover {
+    background-color: lightgray;
+  }
   footer {
     padding: 20px;
     display: flex;
