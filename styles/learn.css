@@ -54,3 +54,22 @@
     display: flex;
     flex-direction: column;
   }
+
+  .sections-units {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: lightgreen;
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+
+  .sections-title {
+    margin-right: 100px;
+  }
+
+  .guidebook {
+    margin-left: 100px;
+  }
