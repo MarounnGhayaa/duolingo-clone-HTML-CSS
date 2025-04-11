@@ -73,3 +73,29 @@
   .guidebook {
     margin-left: 100px;
   }
+
+  .sec-num {
+    color:whitesmoke;
+  }
+
+  .overflow {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .level {
+    margin-top: 20px;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 100%;
+    color: gray;
+    border-color: gray;
+    background-color: lightgray;
+  }
+
+  .level:hover {
+    cursor: pointer;
+  }
+  
